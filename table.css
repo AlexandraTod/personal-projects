@@ -1,0 +1,54 @@
+/*TABLES CSS*/
+
+
+p {
+	height: 100px;
+	width: 100px;
+
+}
+.hiragana {
+
+	background-color: pink;
+	display: inline-block; /* No float is needed, just inline block according to this (Floats work best for large containers, but may not work so well for text elements since it will be difficult to align. You may find that using display: inline-block is better for these situations. Source: https://robots.thoughtbot.com/positioning)*/
+	text-align: center;
+	margin: 25px 0 25px 0;
+	border: dotted black;
+	
+	position: relative;
+}
+
+
+.three {
+
+	padding-top: 50px;
+	position: relative;
+    justify-content: space-around;
+}
+
+.katakana {
+	text-align: center;
+	background-color: green;
+	display: inline-block;
+	border: solid black;
+	text-align: center;
+	
+	margin:25px 0 25px 0;
+}
+
+.wrap1 {
+	display: flex;
+	
+	justify-content: center;
+	justify-content: space-around;
+}
+.wrap2 {
+	display: flex;
+	justify-content: space-around;
+	
+}
+.wrap3 {
+	display: flex;
+	justify-content: center;
+}
+
+ 
